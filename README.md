@@ -16,12 +16,10 @@ POST /clientes
 ### Buscar Cliente
 GET /clientes/{id}
 ### Listar Cliente
-```json
 GET /clientes
-```
 ### Atualizar Cliente
-PUT /clientes/{id}
 ```json
+PUT /clientes/{id}
 {
 	"nome": "seuNome",
 	"email": "seuEmail@provedor.com",
@@ -31,4 +29,33 @@ PUT /clientes/{id}
 ### Excluir Cliente
 DELETE /clientes/{id}
 ## Ordens de Serviço:
+### Criar Ordem de Serviço
+```json
+POST /ordens-servico
+{
+	"cliente": {
+		"id": 4
+	},
+	"descricao": "Reparo do pc Dell. Cliente diz que não liga.",
+	"preco": 300.50
+}
+```
+### Buscar Ordem de Serviço
+GET /ordens-servico/{id}
+### Listar Ordem de Serviço
+GET /ordens-servico
+### Finalizar Ordem de Serviço
+PUT /ordens-servico/{id}/finalizacao
+##Comentários nas Ordens de Serviço:
+
+
+
+
+
+
+
+
+
+
+
 
