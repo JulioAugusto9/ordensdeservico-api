@@ -16,12 +16,12 @@ GET /clientes/{id}
 ### Listar Cliente
 GET /clientes
 ### Atualizar Cliente
-PUT /clientes/{id}
-{  
-	"nome": "seuNome",  
-	"email": "seuEmail@provedor.com",  
-	"telefone": "99 99999-9999"  
-}  
+PUT /clientes/{id}  
+	{
+		"nome": "seuNome",
+		"email": "seuEmail@provedor.com",
+		"telefone": "99 99999-9999"
+	}
 ### Excluir Cliente
 DELETE /clientes/{id}
 ## Ordens de Serviço:
