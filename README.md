@@ -6,17 +6,19 @@ Adicionar o host na frente das rotas mostradas abaixo (por exemplo, se fizer o b
 ## Clientes:
 ### Adicionar Cliente
 ```json
-POST /clientes  
-{  
-	"nome": "seuNome",  
-	"email": "seuEmail@provedor.com",  
-	"telefone": "99 99999-9999"  
-}  
+POST /clientes
+{
+	"nome": "seuNome",
+	"email": "seuEmail@provedor.com",
+	"telefone": "99 99999-9999"
+}
 ```
 ### Buscar Cliente
 GET /clientes/{id}
 ### Listar Cliente
+```json
 GET /clientes
+```
 ### Atualizar Cliente
 PUT /clientes/{id}
 ```json
