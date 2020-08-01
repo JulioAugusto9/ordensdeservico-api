@@ -2,15 +2,15 @@
 Api de ordens de Serviço feita com Spring Boot, Spring Web MVC, Spring Data, MySql, durante um treinamento online de Spring Rest para iniciantes ministrado pela AlgaWorks.
 
 # Endpoints da API:
-Adicionar o host na frente das rotas mostradas abaixo (por exemplo, se fizer o build localmente, adicionar "http://localhost:8080" antes de "/clientes" no caso da rota "Adicionar Cliente").
+Adicionar o host na frente das rotas mostradas abaixo (por exemplo, se fizer o build localmente, adicionar "`http://localhost:8080`" antes de "/clientes" no caso da rota "Adicionar Cliente").
 ## Clientes:
 ### Adicionar Cliente
 POST /clientes
-{
+`{
 	"nome": "seuNome",
 	"email": "seuEmail@provedor.com",
 	"telefone": "99 99999-9999"
-}
+}`
 ### Buscar Cliente
 GET /clientes/{id}
 ### Listar Cliente
@@ -24,4 +24,5 @@ PUT /clientes/{id}
 }
 ### Excluir Cliente
 DELETE /clientes/{id}
-## Ordens de Serviço
+## Ordens de Serviço:
+
