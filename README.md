@@ -18,8 +18,10 @@ GET /clientes/{id}
 ### Listar Cliente
 GET /clientes
 ### Atualizar Cliente
-```json
+```html
 PUT /clientes/{id}
+```
+```json
 {
 	"nome": "seuNome",
 	"email": "seuEmail@provedor.com",
@@ -46,16 +48,8 @@ GET /ordens-servico/{id}
 GET /ordens-servico
 ### Finalizar Ordem de Serviço
 PUT /ordens-servico/{id}/finalizacao
-##Comentários nas Ordens de Serviço:
-
-
-
-
-
-
-
-
-
-
-
-
+## Comentários nas Ordens de Serviço:
+### Listar Comentários
+GET /ordens-servico/{id}/comentarios
+### Adicionar Comentário
+POST /ordens-servico/{id}/comentarios
