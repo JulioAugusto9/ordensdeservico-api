@@ -7,6 +7,8 @@ Adicionar o host na frente das rotas mostradas abaixo (por exemplo, se fizer o b
 ### Adicionar Cliente
 ```json
 POST /clientes
+
+
 {
 	"nome": "seuNome",
 	"email": "seuEmail@provedor.com",
@@ -34,6 +36,8 @@ DELETE /clientes/{id}
 ### Criar Ordem de Serviço
 ```json
 POST /ordens-servico
+
+
 {
 	"cliente": {
 		"id": 4
