@@ -17,7 +17,7 @@ POST /clientes
 ```
 ### Buscar Cliente
 GET /clientes/{id}
-### Listar Cliente
+### Listar Clientes
 GET /clientes
 ### Atualizar Cliente
 ```html
@@ -48,7 +48,7 @@ POST /ordens-servico
 ```
 ### Buscar Ordem de Serviço
 GET /ordens-servico/{id}
-### Listar Ordem de Serviço
+### Listar Ordens de Serviço
 GET /ordens-servico
 ### Finalizar Ordem de Serviço
 PUT /ordens-servico/{id}/finalizacao
