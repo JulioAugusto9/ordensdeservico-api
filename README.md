@@ -25,9 +25,9 @@ PUT /clientes/{id}
 ```
 ```json
 {
-	"nome": "seuNome",
-	"email": "seuEmail@provedor.com",
-	"telefone": "99 99999-9999"
+	"nome": "NomeAtualizado",
+	"email": "EmailAtualizado@provedor.com",
+	"telefone": "88 88888-8888"
 }
 ```
 ### Excluir Cliente
@@ -56,4 +56,11 @@ PUT /ordens-servico/{id}/finalizacao
 ### Listar Comentários
 GET /ordens-servico/{id}/comentarios
 ### Adicionar Comentário
+```html
 POST /ordens-servico/{id}/comentarios
+```
+```json
+{
+	"descricao": "Seu comentário a respeito desta ordem de serviço."
+}
+```
